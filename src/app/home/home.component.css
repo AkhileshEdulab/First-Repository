@@ -1,0 +1,42 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    margin: 0.5rem;
+}
+
+ul li a{
+    height: 22rem;
+    width: 20rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #bcb35b;
+    background-color: rgb(237, 237, 237);
+}
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.content{
+    padding:.5rem 1rem;
+    position:relative;
+}
+.favorite{
+    top:5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+   
+}
+.favorite.not{
+    color: black;
+}
